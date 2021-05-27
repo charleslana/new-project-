@@ -1,10 +1,12 @@
 import { navBar } from '../shared/nav-bar.js';
+import { breadcrumb } from '../shared/breadcrumb.js';
 import { footer } from '../shared/footer.js';
 
 export const login = () => {
     return `
         ${navBar()}
-        <div class="container mt-5 pt-5">
+        ${breadcrumb(['home', 'login'], 'login')}
+        <div class="container mt-5 pt-5 mb-5">
             <div class="row">
                 <div class="col-12">
                     <h1 class="mb-3">Login</h1>

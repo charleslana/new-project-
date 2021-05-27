@@ -1,0 +1,110 @@
+body {
+    background-color: #110f20;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.bg-light {
+    background-color: #282246 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #1b172f;
+    border-radius: 50rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #ffffff;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: 1px solid #ffffff;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #8c52ff;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border: 0;
+}
+
+.form-check-input:checked {
+    background-color: #8c52ff;
+    border-color: #8c52ff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #8c52ff;
+    border-color: #8c52ff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #282246;
+    border-color: #282246;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #282246;
+    border-color: #282246;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #282246;
+    border-color: #282246;
+}
+
+a {
+    color: #8c52ff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.breadcrumb {
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin: 1rem;
+    min-height: 100px;
+    border: 1px solid #8c52ff;
+    border-radius: 1rem;
+    background-color: #1b172f;
+}
+
+.breadcrumb-item {
+    text-transform: capitalize;
+}

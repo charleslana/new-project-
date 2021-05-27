@@ -6,7 +6,7 @@ export const navBar = () => {
                     aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <span class="navbar-brand mb-0 h1">Navbar</span>
+                <span class="navbar-brand mb-0 h1">New Project</span>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="nav nav-pills ms-auto">
                     <li class="nav-item"><a href="/home" class="nav-link active click-action" id="home">Home</a></li>
