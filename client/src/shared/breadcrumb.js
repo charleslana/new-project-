@@ -6,7 +6,7 @@ export const breadcrumb = (objects, active) => {
                 ${object === active ?
                 object
                 :
-                '<a href="/' + object + '" class="click-action">' + object + '</a>'}
+                '<a href="/' + object.split(' ').join('-').normalize('NFD').replace(/[\u0300-\u036f]/g, '') + '" class="click-action">' + object + '</a>'}
             </li>
         `;
     });
