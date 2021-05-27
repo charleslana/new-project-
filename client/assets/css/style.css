@@ -54,6 +54,10 @@ body {
     border: 0;
 }
 
+.form-check-input {
+    background-color: #282246;
+}
+
 .form-check-input:checked {
     background-color: #8c52ff;
     border-color: #8c52ff;
@@ -108,3 +112,19 @@ a:hover {
 .breadcrumb-item {
     text-transform: capitalize;
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+	background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #8c52ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #8c52ff;
+} 
