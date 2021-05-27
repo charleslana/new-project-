@@ -1,12 +1,12 @@
-export const breadcrumb = (objects, active) => {
+export const breadcrumb = (pages, pageActive) => {
     let values = '';
-    [].slice.call(objects).map(object => {
+    [].slice.call(pages).map(page => {
         values += `
-            <li class="breadcrumb-item ${object === active ? 'active' : ''}">
-                ${object === active ?
-                object
+            <li class="breadcrumb-item ${page === pageActive ? 'active' : ''}">
+                ${page === pageActive ?
+                page
                 :
-                '<a href="/' + object.split(' ').join('-').normalize('NFD').replace(/[\u0300-\u036f]/g, '') + '" class="click-action">' + object + '</a>'}
+                '<a href="/' + page.split(' ').join('-').normalize('NFD').replace(/[\u0300-\u036f]/g, '') + '" class="click-action">' + page + '</a>'}
             </li>
         `;
     });
