@@ -6,9 +6,12 @@ export const login = () => {
     return `
         ${navBar()}
         ${breadcrumb(['home', 'login'], 'login')}
-        <div class="container mt-5 pt-5 mb-5">
+        <div class="container mt-5 pt-5 mb-5 pb-5">
             <div class="row">
-                <div class="col-12">
+                <div class="col-md-3 d-none d-sm-block">
+                    <img src="assets/images/helpers/2.png" class="img-fluid" alt="Helper">
+                </div>
+                <div class="col-md-6 col-xs-12">
                     <h1 class="mb-3">Login</h1>
                     <form>
                         <div class="form-floating mb-3">
@@ -25,6 +28,9 @@ export const login = () => {
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                </div>
+                <div class="col-md-3 d-none d-sm-block">
+                    <img src="assets/images/helpers/3.png" class="img-fluid" alt="Helper">
                 </div>
             </div>
         </div>

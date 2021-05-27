@@ -3,7 +3,7 @@ import { navBar } from '../shared/nav-bar.js';
 export const notFound = () => {
     return `
         ${navBar()}
-        <div class="container mt-5 pt-5 text-center">
+        <div class="container mt-5 pt-5 pb-5 text-center">
             <div class="row">
                 <div class="col-12">
                     <h1>Oops!</h1>

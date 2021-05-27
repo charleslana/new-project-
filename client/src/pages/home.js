@@ -6,7 +6,7 @@ export const home = () => {
     return `
         ${navBar()}
         ${breadcrumb(['home'], 'home')}
-        <div class="container mt-2">
+        <div class="container mt-2 mb-5">
             <div class="row justify-content-md-center">
                 <div class="col-md-3">
                     <img src="assets/images/helpers/1.png" class="img-fluid" alt="Helper">
