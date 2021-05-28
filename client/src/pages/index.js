@@ -1,6 +1,7 @@
 import { notFound } from '../pages/not-found.js';
 import { home } from '../pages/home.js';
 import { login } from '../pages/login.js';
+import { register } from '../pages/register.js';
 
 export default class Page {
 
@@ -16,6 +17,8 @@ export default class Page {
                 return home();
             case 'login':
                 return login();
+            case 'register':
+                return register();
             default:
                 return notFound();
         }
