@@ -149,4 +149,51 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--button-bg);
-} 
+}
+
+.dropdown-menu {
+    background-color: var(--input-color);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--button-bg);
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: var(--button-bg);
+}
+
+.dropdown-menu li {
+    cursor: pointer;
+}
+
+.language-pt {
+    background-image: url(../images/languages/1.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
+
+.language-en {
+    background-image: url(../images/languages/2.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
+
+.language-es {
+    background-image: url(../images/languages/3.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
